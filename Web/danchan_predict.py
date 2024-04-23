@@ -37,5 +37,6 @@ def danchan_predict(area, year):
 
     #计算预测单产
     Y_t = alpha * year**3 + beta * year**2 + gamma * year + phi
+    
     return Y_t
 
